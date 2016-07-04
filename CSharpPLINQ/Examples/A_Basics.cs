@@ -28,6 +28,7 @@ namespace CSharpPLINQ.Examples
                                             where customer.CustomerName.Contains("L")
                                             select customer;
 
+
             PrintManager.PrintSubTitle("ALL CUSTOMER NAMES: NON PARALLEL");
             stopWatch = Stopwatch.StartNew();
             foreach(Customer cust in customers)
@@ -44,6 +45,7 @@ namespace CSharpPLINQ.Examples
                 Console.WriteLine(cust.CustomerName);
             }
             PrintManager.PrintTime(stopWatch.Elapsed.TotalSeconds);
+
 
             PrintManager.PrintSubTitle("FILTERED CUSTOMER NAMES: NON PARALLEL");
             stopWatch = Stopwatch.StartNew();
