@@ -6,7 +6,7 @@ using System.Linq;
 namespace CSharpPLINQ.Examples
 {
 
-    public class A_Basics : ExampleBase
+    public class A_Basics : Z_ExampleBase
     {
 
         public static void Run()
