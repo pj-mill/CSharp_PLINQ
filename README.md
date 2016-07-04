@@ -5,7 +5,7 @@ Some examples demonstrating Parallel Linq.
 |Feature |Description |
 |--------|------------|
 |Basics | Basic examples that reads customers from a csv file and outputs to the console using AsParallel |
-|Ordering | Demonstrates how to process co;;ection items in order (& reverse order) |
+|Order Preservation | Demonstrates how to process collection items in order (& reverse order) |
 
 
 ---
