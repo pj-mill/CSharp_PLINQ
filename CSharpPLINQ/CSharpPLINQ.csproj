@@ -49,6 +49,7 @@
     <Compile Include="DataAccess\OrderDetailDAO.cs" />
     <Compile Include="DataAccess\ProductDAO.cs" />
     <Compile Include="Examples\A_Basics.cs" />
+    <Compile Include="Examples\ExampleBase.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Order.cs" />
     <Compile Include="Models\OrderDetail.cs" />

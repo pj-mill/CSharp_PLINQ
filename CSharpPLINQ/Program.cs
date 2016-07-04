@@ -1,19 +1,13 @@
-﻿using CSharpPLINQ.DataAccess;
-using System;
-using System.Threading.Tasks;
+﻿using CSharpPLINQ.Examples;
 
 namespace CSharpPLINQ
 {
     class Program
     {
-        static DataAccessManager DataManager = new DataAccessManager();
+
         static void Main(string[] args)
         {
-            //CustomersDAO.Test();
-            Parallel.ForEach(DataManager.CustomerManager.Customers, (customer) =>
-            {
-                Console.WriteLine($"{customer.CustomerName}");
-            });
+            A_Basics.Run();
         }
     }
 }
