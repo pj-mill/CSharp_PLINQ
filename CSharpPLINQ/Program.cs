@@ -7,7 +7,9 @@ namespace CSharpPLINQ
 
         static void Main(string[] args)
         {
-            A_Basics.Run();
+            //A_Basics.Run();
+            //B_Ordering.Run();
+            C_ExceptionHandling.Run();
         }
     }
 }
