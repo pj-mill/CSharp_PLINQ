@@ -26,3 +26,4 @@ Some examples demonstrating Parallel Linq.
 | Pro C# 5.0 and the .NET 4.5 Framework| Andrew Troelsen | APRESS |
 | [Task Parallelism (Task Parallel Library)](https://msdn.microsoft.com/en-us/library/dd537609(v=vs.110).aspx) |  | MSDN |
 | [Parallel LINQ (PLINQ)](https://msdn.microsoft.com/en-us/library/dd460688(v=vs.110).aspx) |  | MSDN |
+| [ParallelMergeOptions Enumeration](https://msdn.microsoft.com/en-us/library/system.linq.parallelmergeoptions(v=vs.100).aspx) |  | MSDN |
