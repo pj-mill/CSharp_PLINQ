@@ -44,5 +44,16 @@ namespace CSharpPLINQ.DataAccess
                        PostalCode = fields[4].Trim()
                    };
         }
+
+        public string[] GetCustomersAsString()
+        {
+            if (!File.Exists(path))
+            {
+                Console.WriteLine($"File doe's not exist: {path}");
+                return null;
+            }
+
+            return File.ReadAllLines(path);
+        }
     }
 }
