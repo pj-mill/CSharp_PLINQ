@@ -11,7 +11,8 @@ namespace CSharpPLINQ
             //B_Ordering.Run();
             //C_ExceptionHandling.Run();
             //D_CancelQuery.Run();
-            E_AggregateFunction.Run();
+            //E_AggregateFunction.Run();
+            F_MergeOptions.Run();
         }
     }
 }
