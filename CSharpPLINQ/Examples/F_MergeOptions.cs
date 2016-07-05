@@ -5,10 +5,11 @@ using System.Threading;
 
 namespace CSharpPLINQ.Examples
 {
-    public class F_MergeOptions
+    public class F_MergeOptions : Z_ExampleBase
     {
         public static void Run()
         {
+            PrintManager.PrintTitle("PLINQ - MERGE OPTIONS");
             NotBufferedExample();
             FullyBufferedExample();
             AutoBufferedExample();

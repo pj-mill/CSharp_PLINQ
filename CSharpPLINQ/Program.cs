@@ -12,7 +12,8 @@ namespace CSharpPLINQ
             //C_ExceptionHandling.Run();
             //D_CancelQuery.Run();
             //E_AggregateFunction.Run();
-            F_MergeOptions.Run();
+            //F_MergeOptions.Run();
+            G_IterateDirectories.Run();
         }
     }
 }

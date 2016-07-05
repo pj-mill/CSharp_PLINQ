@@ -5,10 +5,12 @@ using System.Threading.Tasks;
 
 namespace CSharpPLINQ.Examples
 {
-    public class D_CancelQuery
+    public class D_CancelQuery : Z_ExampleBase
     {
         public static void Run()
         {
+            PrintManager.PrintTitle("PLINQ - CANCEL QUERY");
+
             int[] nums = Enumerable.Range(0, 100000).ToArray();
             int[] results = null;
             CancellationTokenSource cts = new CancellationTokenSource();
