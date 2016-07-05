@@ -10,7 +10,7 @@ Some examples demonstrating Parallel Linq.
 |Query Cancelling | CancellationTokenSource used to cancel query processes |
 |Aggregate Function| Example calculates the standard deviation of a sequence of integers using an aggregate function|
 |Merge Options| Demonstrates and compares NotBuffered, FullyBuffered & AutoBuffered options |
-|File Iteration | Uses System.IO & PLinq to access and process files for a given directory (make sure you change this)|
+|File Iteration | Uses System.IO & PLINQ to access and process files for a given directory (make sure you change the path)|
 
 ---
 ####Language Features
