@@ -52,6 +52,7 @@
     <Compile Include="Examples\B_Ordering.cs" />
     <Compile Include="Examples\C_ExceptionHandling.cs" />
     <Compile Include="Examples\D_CancelQuery.cs" />
+    <Compile Include="Examples\E_AggregateFunction.cs" />
     <Compile Include="Examples\Z_ExampleBase.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Order.cs" />

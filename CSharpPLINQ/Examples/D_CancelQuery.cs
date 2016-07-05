@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -28,12 +26,11 @@ namespace CSharpPLINQ.Examples
                            orderby num descending
                            select num).ToArray();
 
-
                 if (results != null)
                 {
                     for(int i = 0; i < results.Length / 200; i++)
                     {
-                        cts.Token.ThrowIfCancellationRequested();
+                        cts.Token.ThrowIfCancellationRequested(); // We need this here to stop processing the results
                         Console.WriteLine(results[i]);
                     }
                 }
@@ -56,9 +53,6 @@ namespace CSharpPLINQ.Examples
             {
                 cts.Dispose();
             }
-            
-
-            
         }
 
         private static void SimulateUserClickingCancelButton(CancellationTokenSource cts)

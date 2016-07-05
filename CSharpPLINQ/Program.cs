@@ -10,7 +10,8 @@ namespace CSharpPLINQ
             //A_Basics.Run();
             //B_Ordering.Run();
             //C_ExceptionHandling.Run();
-            D_CancelQuery.Run();
+            //D_CancelQuery.Run();
+            E_AggregateFunction.Run();
         }
     }
 }
