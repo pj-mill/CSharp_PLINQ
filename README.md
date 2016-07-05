@@ -6,6 +6,10 @@ Some examples demonstrating Parallel Linq.
 |--------|------------|
 |Basics | Basic examples that reads customers from a csv file and outputs to the console using AsParallel |
 |Order Preservation | Demonstrates how to process collection items in order (& reverse order) |
+|Exception Handling | Demonstrates PLINQ exception handling with 'AggregateException' |
+|Query Cancelling | CancellationTokenSource used to cancel query processes |
+|Aggregate Function| Example calculates the standard deviation of a sequence of integers using an aggregate function|
+|Merge Options| Demonstrates and compares NotBuffered, FullyBuffered & AutoBuffered options |
 
 
 ---
@@ -17,7 +21,16 @@ Some examples demonstrating Parallel Linq.
 |Take(n)|
 |Reverse()|
 |ElementAt(n)|
-
+|AggregateException|
+|OperationCanceledException|
+|ConcurrentQueue|
+|CancellationTokenSource|
+|Random.Next|
+|Thread|
+|WithMergeOptions(option)|
+|ParallelMergeOptions|
+|Stopwatch|
+|Enumerable.Range|
 
 ---
 ####Resources
