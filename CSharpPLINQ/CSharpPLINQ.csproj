@@ -55,6 +55,7 @@
     <Compile Include="Examples\E_AggregateFunction.cs" />
     <Compile Include="Examples\F_MergeOptions.cs" />
     <Compile Include="Examples\G_IterateDirectories.cs" />
+    <Compile Include="Examples\H_DeferredExecution.cs" />
     <Compile Include="Examples\Z_ExampleBase.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Order.cs" />

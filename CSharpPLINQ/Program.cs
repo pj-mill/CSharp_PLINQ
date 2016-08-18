@@ -13,7 +13,8 @@ namespace CSharpPLINQ
             //D_CancelQuery.Run();
             //E_AggregateFunction.Run();
             //F_MergeOptions.Run();
-            G_IterateDirectories.Run();
+            //G_IterateDirectories.Run();
+            H_DeferredExecution.Run();
         }
     }
 }
